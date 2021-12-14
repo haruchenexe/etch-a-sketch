@@ -1,0 +1,9 @@
+1. Create a index page that holds the project content. 
+
+2. Create a webpage with 16x16 grid of square divs using Javascript and place the JS inside a 
+div container
+    2a. I want a container to have a set width x length to hold all the small 16x16 grid boxes
+    2b. The 16x16 square grids cannot expand out of the container
+
+3. Set up a "hoover" effect on each 16x16 grid to change color when mouse passes over them
+    3a. most likely going to us a addEvenetListender("mouse" function("hoover))

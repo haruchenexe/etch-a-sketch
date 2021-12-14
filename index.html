@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>etch-a-sketch</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <h1>etch-a-sketch</h1>
+        <div id=container>
+            <div id="left-container">
+                <div id="Clears">
+                    <button id="Clearbtn">clear all</button>
+                    <button id="Resetbtn" onClick="resetall()">reset borders</button>
+                </div> 
+                <div id=UIcustom>
+                    <p>Pick a Color</p>
+                    <div id = "pressed">
+                        <button id="Black">black</button>
+                        <button id="Rainbow">rainbow</button>
+                        <button id="White">white</button>
+                    </div>
+                    <p>Box Size</p>
+                    <div id="Dimension"></div>
+                </div>
+            </div>
+            <div id="DynamicBox">
+                <div id="DynamicTable"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
